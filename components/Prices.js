@@ -5,10 +5,17 @@ class Prices extends React.Component {
 
 
   render() {
-    return (<div>
-      Prices
-    </div>)
-
+    return (
+    <div>
+      <ul className="list-group">
+        <li className="list-group-item">
+          Bitcoin Rate For {this.props.bpi.USD.description}
+          : <span class="badge badge-primary">{this.props.bpi.USD.code}</span>  
+          <strong>{this.props.bpi.USD.rate}</strong>
+        </li>
+      </ul>
+    </div>
+    );
   }
 }
 

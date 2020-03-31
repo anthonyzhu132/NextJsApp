@@ -4,6 +4,9 @@ import Fetch from 'isomorphic-unfetch';
 
 import Prices from '../components/Prices';
 
+
+//props.bpi is being passed into Prices component for it to use in Prices.js
+
 const index = (props) => (
   <Layout>
     <div>
