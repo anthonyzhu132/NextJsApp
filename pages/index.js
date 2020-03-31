@@ -1,10 +1,9 @@
 //Root page or index page
-import Link from 'next/link';
+import NavBar from '../components/navBar';
 
 const index = () => (
   <div>
-    <li><Link href="/"><a>Home</a></Link></li>
-    <li><Link href="/about"><a>About</a></Link></li>
+    <NavBar/>
     <h1>Welcome to BTC Daily</h1>
   </div>
 );
