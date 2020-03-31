@@ -1,11 +1,12 @@
 //Root page or index page
-import NavBar from '../components/navBar';
+import Layout from '../components/Layout';
 
 const index = () => (
-  <div>
-    <NavBar/>
-    <h1>Welcome to BTC Daily</h1>
-  </div>
+  <Layout>
+    <div>
+      <h1>Welcome to BTC Daily</h1>
+    </div>
+  </Layout>
 );
 
 export default index; 
