@@ -1,6 +1,6 @@
 class Prices extends React.Component {
   state = {
-    currency: 'EUR'
+    currency: 'USD'
   }
 
 
@@ -38,6 +38,14 @@ class Prices extends React.Component {
       <ul className="list-group">
         {list}
       </ul>
+
+      <br/>
+      
+      <select onChange={event => this.setState({currency: event.target.value})} className="form-control">
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+        <option value="EUR">EUR</option>
+      </select>
     </div>
     );
   }
