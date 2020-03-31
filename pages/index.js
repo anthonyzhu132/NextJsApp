@@ -1,3 +1,9 @@
 //Root page or index page
 
-export default () => (<div>Hello Next.js</div>);
+const index = () => (
+  <div>
+    <h1>Welcome to BTC Daily</h1>
+  </div>
+);
+
+export default index; 
