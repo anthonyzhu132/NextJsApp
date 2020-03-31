@@ -5,6 +5,7 @@ const Layout = (props) => (
   <div>
     <Head>
       <title>BTC Daily</title>
+      <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css"></link>
     </Head>
 
     <NavBar/>
