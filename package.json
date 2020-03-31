@@ -1,0 +1,25 @@
+{
+  "name": "nextJsApp",
+  "version": "1.0.0",
+  "description": "Creating a simple Next.Js application that fetches bitcoin prices from an API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyzhu132/NextJsApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyzhu132/NextJsApp/issues"
+  },
+  "homepage": "https://github.com/anthonyzhu132/NextJsApp#readme",
+  "dependencies": {
+    "next": "^9.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
