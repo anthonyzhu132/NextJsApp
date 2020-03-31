@@ -9,7 +9,9 @@ const Layout = (props) => (
     </Head>
 
     <NavBar/>
-    {props.children}
+    <div className="container">
+      {props.children}
+    </div>
   </div>
 );
 
